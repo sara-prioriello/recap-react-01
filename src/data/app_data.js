@@ -82,4 +82,6 @@ const other_links = [
     }
 
 ]
-export { main_menu, learn_menu, api_menu, community_menu, other_links }
+
+const banner_title = "Welcome to react community"
+export { main_menu, learn_menu, api_menu, community_menu, other_links, banner_title }
