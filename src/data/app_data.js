@@ -25,61 +25,93 @@ const main_menu = [
 const learn_menu = [
     {
         id: 1,
-        text: "learn"
+        text: "Quick Start",
+        path: "/Quick Start"
     },
     {
         id: 2,
-        text: "learn"
-    }, {
+        text: "Installation",
+        path: "/Installation"
+    },
+    {
         id: 3,
-        text: "learn"
+        text: "Describing the UI",
+        path: "/Describing the UI"
+    },
+    {
+        id: 4,
+        text: "Adding Interactivity",
+        path: "/Adding Interactivity"
+    },
+    {
+        id: 5,
+        text: "Managing State",
+        path: "/Managing State"
+    },
+    {
+        id: 6,
+        text: "Escape Hatches",
+        path: "/Escape Hatches"
     }
 ]
 
 
 const api_menu = [{
     id: 1,
-    text: "learn"
+    text: "React APIs",
+    path: "/React APIs"
 },
 {
     id: 2,
-    text: "learn"
-}, {
-    id: 3,
-    text: "learn"
+    text: "React DOM APIs",
+    path: "/React DOM APIs"
 }]
 
 
 const community_menu = [{
     id: 1,
-    text: "learn"
+    text: "Code of Contact",
+    path: "/Code of contact"
 },
 {
     id: 2,
-    text: "learn"
-}, {
+    text: "Meet the Team",
+    path: "/Meet the Team"
+},
+{
     id: 3,
-    text: "learn"
-}]
+    text: "Docs Contributors",
+    path: "/Docs Contributors"
+},
+{
+    id: 4,
+    text: "Acknowledgements",
+    path: "/Acknowledgements"
+}
+]
 
 
 
-const other_links = [
-    {
-        id: 1,
-        text: "learn",
-        path: '/learn'
-    },
-    {
-        id: 2,
-        text: "Reference",
-        path: '/learn'
-    },
-    {
-        id: 3,
-        text: "learn",
-        path: 'learn'
-    }
+const other_links = [{
+    id: 1,
+    text: "Blog",
+    path: "/Blog"
+},
+{
+    id: 2,
+    text: "React Native",
+    path: "/React Native"
+},
+{
+    id: 3,
+    text: "Privacy",
+    path: "/Privacy"
+},
+{
+    id: 4,
+    text: "Terms",
+    path: "/Terms"
+}
 
 ]
 
